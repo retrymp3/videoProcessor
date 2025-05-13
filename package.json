@@ -1,0 +1,33 @@
+{
+  "name": "videoprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retrymp3/videoProcessor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retrymp3/videoProcessor/issues"
+  },
+  "homepage": "https://github.com/retrymp3/videoProcessor#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "@types/node": "^22.15.17"
+  }
+}
